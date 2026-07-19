@@ -1,8 +1,9 @@
 # WCSNDM
 
-多内核 UTAU 重采样引擎（resampler）：六个合成模式 + 可选神经声码器（NSF-HiFiGAN），
+ UTAU 重采样引擎（resampler）：六个合成模式 + 可选神经声码器（NSF-HiFiGAN），
 内置针对低质量人声素材的一定修复能力。
 主要面向人力 VOCALOID / 鬼畜调音场景设计。
+大部分代码由AI编写。
 
 
 ## 快速开始
