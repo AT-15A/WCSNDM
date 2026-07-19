@@ -41,5 +41,4 @@ powershell -ExecutionPolicy Bypass -File build.ps1
 
 ## 反馈
 
-问题反馈请附：声库名、音符 flags、现象描述（引擎每次调用会在 exe 旁写
-`wcsndm_lastcall.txt`，排查 flag 问题时请一并附上）。
+问题反馈请附：声库名、音符 flags、现象描述联系b站AT-15A。
