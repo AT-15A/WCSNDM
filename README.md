@@ -1,26 +1,15 @@
 # WCSNDM
 
-多内核 UTAU 重采样引擎（resampler）：六个原生合成内核 + 可选神经声码器（NSF-HiFiGAN），
-内置针对低质量人声素材的修复栈（智能降噪 / 频宽扩展 / 音色对齐 / 转音平滑 / 神经蒸馏降噪）。
-面向人力 VOCALOID / 鬼畜调音场景设计。
+多内核 UTAU 重采样引擎（resampler）：六个合成模式 + 可选神经声码器（NSF-HiFiGAN），
+内置针对低质量人声素材的一定修复能力。
+主要面向人力 VOCALOID / 鬼畜调音场景设计。
 
-## 内核
-
-| Flag | 内核 | 特点 |
-|------|------|------|
-| （不填） | V2 | 默认：K1 谐波 + K2 噪声混合，日常推荐 |
-| `K2` | 纯 LLSM2 | 可调参数最多 |
-| `K1` | 纯 LLSM1 | 干脆干净（moresampler 同底座） |
-| `V1` | 混合 | K2 谐波 + K1 噪声 |
-| `M1` | TD-PSOLA 时域 | 原始质感，几乎零合成感 |
-| `HF` / `HF2` | NSF-HiFiGAN 神经声码器 | 需 Python 扩展环境；HF2 为辅音清晰版（推荐） |
 
 ## 快速开始
 
 1. 下载 Release 中的配布包（含编译好的 `WCSNDM.exe`），或自行编译（见下）。
 2. UTAU 工程设置：Tool2（resample）指向 `WCSNDM.exe`。
-3. 直接使用即可；flag 说明见 [README.txt](README.txt)（安装与速览）、
-   [flag速查表.txt](flag速查表.txt)、[docs/](docs/)（完整参数表与编辑逻辑表）。
+3. 直接使用即可
 
 ### HF 神经声码器（可选）
 
