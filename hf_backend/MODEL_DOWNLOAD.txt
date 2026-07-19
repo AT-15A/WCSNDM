@@ -1,0 +1,11 @@
+model.ckpt 获取说明
+====================
+
+HF/HF2 内核所需的神经声码器模型 model.ckpt（pc_nsf_hifigan，约 56MB）
+不随本仓库分发（第三方模型，许可见同目录 NOTICE.txt / STATEMENTS.txt）。
+
+获取方式：
+1. 从本仓库 GitHub Releases 页面下载附件 model.ckpt；
+2. 放入本目录（hf_backend\model.ckpt）即可。
+
+不使用 HF/HF2 内核则无需此文件。

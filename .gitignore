@@ -1,0 +1,31 @@
+# 神经声码器模型(第三方许可,经 Releases 分发,不入库)
+*.ckpt
+*.onnx
+
+# 运行时产物
+wcsndm_lastcall.txt
+*.npy
+__pycache__/
+*.pyc
+
+# 引擎在声库目录生成的缓存(不应出现在仓库,防误提交)
+*.llsm2
+*.l1f0
+*.nfx
+wcsndm_bank.prof
+
+# 编译/IDE 产物
+build/
+Debug/
+Release/
+x64/
+.vs/
+*.obj
+*.pdb
+*.suo
+*.ipch
+*.exe.recipe
+
+# 打包产物与临时文件
+*.zip
+~$*
